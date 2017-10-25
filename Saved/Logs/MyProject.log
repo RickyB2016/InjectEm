@@ -1,17 +1,15 @@
-﻿Log file open, 10/26/17 03:08:48
+﻿Log file open, 10/26/17 09:05:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1621634217) SRandInit(-1621634217).
+LogInit: Display: RandInit(-270092523) SRandInit(-270092523).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165989
+LogStats: Stats thread started at 0.372484
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -67,6 +65,28 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: UE4Editor-MyProject.dll
+Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject Development Win64 -project="C:/source/InjectEm/MyProject.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Performing full C++ include scan (building a new target)
+Creating makefile for MyProject (no existing makefile)
+@progress push 5%
+Parsing headers for MyProjectEditor
+  Running UnrealHeaderTool "C:\source\InjectEm\MyProject.uproject" "C:\source\InjectEm\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for MyProjectEditor in 7.0330858 seconds
+@progress pop
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+MyProject.cpp
+SCR_Timer.gen.cpp
+MyProject.init.gen.cpp
+SCR_Timer.cpp
+[8/9] Link UE4Editor-MyProject.dll
+[9/9] Link UE4Editor-MyProject.lib
+   Creating library C:\source\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.lib and object C:\source\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.exp
+   Creating library C:\source\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.lib and object C:\source\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.exp
+Total build time: 39.86 seconds (Local executor: 19.02 seconds)
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -83,3 +103,492 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.25-22.05.56:778][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-22.05.56:778][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-22.05.56:810][  0]LogInit: Computer: SYD-R102-PC20
+[2017.10.25-22.05.56:810][  0]LogInit: User: rbarkley4
+[2017.10.25-22.05.56:810][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-22.05.56:810][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.10.25-22.05.56:811][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.25-22.05.56:811][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-22.05.56:811][  0]LogMemory: Process Physical Memory: 287.43 MB used, 287.43 MB peak
+[2017.10.25-22.05.56:811][  0]LogMemory: Process Virtual Memory: 277.78 MB used, 277.78 MB peak
+[2017.10.25-22.05.56:811][  0]LogMemory: Physical Memory: 5326.39 MB used,  27356.76 MB free, 32683.15 MB total
+[2017.10.25-22.05.56:811][  0]LogMemory: Virtual Memory: 738.34 MB used,  27356.76 MB free, 134217728.00 MB total
+[2017.10.25-22.05.57:593][  0]LogInit: Using OS detected language (en-US).
+[2017.10.25-22.05.57:593][  0]LogInit: Using OS detected locale (en-AU).
+[2017.10.25-22.05.57:605][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.25-22.05.58:621][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-22.05.58:657][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.10.25-22.05.58:657][  0]LogD3D11RHI:       4060/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.25-22.05.58:659][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-22.05.58:659][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-22.05.58:659][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-22.05.58:664][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-22.05.58:664][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-22.05.58:664][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-22.05.58:664][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.10.25-22.05.58:664][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.10.25-22.05.58:665][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.10.25-22.05.58:665][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.10.25-22.05.58:665][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.25-22.05.58:665][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.10.25-22.05.58:665][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.10.25-22.05.58:665][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.10.25-22.05.58:665][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-22.05.58:689][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-22.05.58:705][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-22.05.58:750][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../source/InjectEm/Intermediate/Shaders/WorkingDirectory/11436/).
+[2017.10.25-22.05.58:750][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rbarkley4/AppData/Local/Temp/UnrealShaderWorkingDir/AAC1281444554466A4785D9C0812D604/'.
+[2017.10.25-22.05.58:751][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-22.06.00:187][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-22.06.00:345][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-22.06.00:498][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-22.06.00:654][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-22.06.00:810][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-22.06.00:967][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-22.06.01:123][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-22.06.01:278][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-22.06.01:429][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-22.06.01:584][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-22.06.01:740][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-22.06.01:893][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-22.06.02:048][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-22.06.02:202][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-22.06.02:356][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-22.06.02:663][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-22.06.02:663][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-22.06.02:814][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-22.06.03:092][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-22.06.03:186][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-22.06.03:342][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-22.06.03:497][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-22.06.03:653][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-22.06.03:809][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-22.06.03:809][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-22.06.06:039][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-22.06.06:320][  0]LogDerivedDataCache: Loaded boot cache 0.28s 93MB C:/Users/rbarkley4/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-22.06.06:320][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rbarkley4/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-22.06.06:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../source/InjectEm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-22.06.06:321][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-22.06.06:321][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../source/InjectEm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-22.06.06:321][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-22.06.06:338][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-22.06.06:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rbarkley4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-22.06.06:362][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-22.06.06:363][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-22.06.06:367][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-22.06.06:367][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-22.06.10:561][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.10.25-22.06.10:825][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-22.06.11:066][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-22.06.12:222][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-22.06.12:378][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-22.06.12:378][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-22.06.12:378][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-22.06.12:378][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-22.06.12:378][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-22.06.12:926][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.25-22.06.13:392][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.055157 seconds
+[2017.10.25-22.06.13:398][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-22.06.13:398][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.25-22.06.13:398][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-22.06.13:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-22.06.20:949][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-22.06.21:060][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-22.06.23:108][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-22.06.24:292][  0]SourceControl: Source control is disabled
+[2017.10.25-22.06.24:292][  0]SourceControl: Source control is disabled
+[2017.10.25-22.06.24:452][  0]SourceControl: Source control is disabled
+[2017.10.25-22.06.24:609][  0]SourceControl: Source control is disabled
+[2017.10.25-22.06.26:518][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-22.06.27:321][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-22.06.28:169][  0]LogEngine: Initializing Engine...
+[2017.10.25-22.06.28:172][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-22.06.28:394][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-22.06.28:394][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-22.06.28:871][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-22.06.28:907][  0]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.06.28:986][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-22.06.29:071][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/rbarkley4/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-22.06.29:082][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-22.06.29:551][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-22.06.29:551][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={D20A8C53-442F-2342-D552-CEAA96C58AB8}
+[2017.10.25-22.06.30:401][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-22.06.31:571][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-22.06.35:005][  0]LocalizationService: Localization service is disabled
+[2017.10.25-22.06.37:482][  0]LogConsoleResponse: Display: 
+[2017.10.25-22.06.37:791][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-22.06.37:791][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-22.06.37:791][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-22.06.37:894][  0]LogFileCache: Scanning file cache for directory 'C:/source/InjectEm/Content/' took 0.01s
+[2017.10.25-22.06.41:599][  0]SourceControl: Source control is disabled
+[2017.10.25-22.06.41:600][  0]Cmd: MAP LOAD FILE="../../../../../../source/InjectEm/Content/Levels/Test/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-22.06.41:600][  0]LightingResults: New page: Lighting Build
+[2017.10.25-22.06.41:754][  0]MapCheck: New page: Map Check
+[2017.10.25-22.06.41:754][  0]LightingResults: New page: Lighting Build
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2017.10.25-22.06.41:934][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.10.25-22.06.41:934][  0]LogMaterial: Missing cached shader map for material MAT_Patient_Test, compiling. 
+[2017.10.25-22.06.42:042][  0]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.06.42:070][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-22.06.42:087][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-22.06.42:214][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 126.377ms to complete.
+[2017.10.25-22.06.42:214][  0]LogFileHelpers: Loading map 'TestMap' took 0.615
+[2017.10.25-22.06.42:266][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-22.06.42:454][  0]LogCollectionManager: Loaded 0 collections in 0.002248 seconds
+[2017.10.25-22.06.42:685][  0]LogFileCache: Scanning file cache for directory 'C:/source/InjectEm/Saved/Collections/' took 0.01s
+[2017.10.25-22.06.42:685][  0]LogFileCache: Scanning file cache for directory 'C:/source/InjectEm/Content/Developers/rbarkley4/Collections/' took 0.01s
+[2017.10.25-22.06.42:685][  0]LogFileCache: Scanning file cache for directory 'C:/source/InjectEm/Content/Collections/' took 0.01s
+[2017.10.25-22.06.42:685][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.25-22.06.42:696][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2387 classes and 502 folders.
+[2017.10.25-22.06.43:003][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2017.10.25-22.06.43:129][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.10.25-22.06.43:336][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.10.25-22.06.43:360][  0]LogSlate: Took 0.001142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-22.06.43:364][  0]LogSlate: Took 0.001015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-22.06.43:372][  0]LogSlate: Took 0.001271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-22.06.43:499][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-22.06.43:844][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.10.25-22.06.43:845][  0]LogLoad: (Engine Initialization) Total time: 98.66 seconds
+[2017.10.25-22.06.43:845][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-22.06.43:845][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-22.06.43:845][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-22.06.43:888][  0]LogAssetRegistry: Asset discovery search completed in 33.3493 seconds
+[2017.10.25-22.06.43:890][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.25-22.06.43:890][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2017.10.25-22.06.43:894][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-22.06.43:943][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/source/InjectEm/Content/' took 0.07s
+[2017.10.25-22.06.44:886][109]LogSlate: Took 0.001476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-22.06.55:483][380]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.06.55:511][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.06.55:516][380]PIE: New page: PIE session: TestMap (26 Oct 2017 8:06:55 pm)
+[2017.10.25-22.06.55:517][380]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.06.55:519][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001847s)
+[2017.10.25-22.06.55:519][380]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.06.55:520][380]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2017.10.25-22.06.55:520][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003201s)
+[2017.10.25-22.06.55:537][380]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.06.55:544][380]LogInit: FAudioDevice initialized.
+[2017.10.25-22.06.55:678][380]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.06.55:688][380]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.06.55
+[2017.10.25-22.06.55:690][380]LogWorld: Bringing up level for play took: 0.002378
+[2017.10.25-22.06.55:855][380]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.10.25-22.06.55:861][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.06.55:862][380]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.06.55:862][380]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.992
+[2017.10.25-22.07.06:412][643]Cmd: Blue
+[2017.10.25-22.07.06:413][643]Command not recognized: Blue
+[2017.10.25-22.07.06:853][696]Cmd: Green
+[2017.10.25-22.07.06:853][696]Command not recognized: Green
+[2017.10.25-22.07.08:512][895]Cmd: Blue
+[2017.10.25-22.07.08:512][895]Command not recognized: Blue
+[2017.10.25-22.07.08:779][927]Cmd: Green
+[2017.10.25-22.07.08:779][927]Command not recognized: Green
+[2017.10.25-22.07.09:137][970]Cmd: Blue
+[2017.10.25-22.07.09:137][970]Command not recognized: Blue
+[2017.10.25-22.07.09:445][  7]Cmd: Green
+[2017.10.25-22.07.09:446][  7]Command not recognized: Green
+[2017.10.25-22.07.39:246][571]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.07.39:261][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.07.39:261][571]PIE: New page: PIE session: TestMap (26 Oct 2017 8:07:39 pm)
+[2017.10.25-22.07.39:261][571]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.07.39:262][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001481s)
+[2017.10.25-22.07.39:263][571]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.07.39:264][571]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2017.10.25-22.07.39:264][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002912s)
+[2017.10.25-22.07.39:280][571]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.07.39:286][571]LogInit: FAudioDevice initialized.
+[2017.10.25-22.07.39:319][571]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.07.39:322][571]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.07.39
+[2017.10.25-22.07.39:322][571]LogWorld: Bringing up level for play took: 0.001129
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.07.39:324][571]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.07.39:324][571]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.454
+[2017.10.25-22.07.44:493][158]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-22.07.45:216][158]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 113 classes and 0 folders.
+[2017.10.25-22.07.45:753][158]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-22.07.45:818][158]LogSlate: Took 0.001704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-22.07.45:945][159]LogSlate: Took 0.001138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.25-22.07.55:786][ 36]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-22.07.55:821][ 36]LogTexture: Display: Building textures: IMG_BlueItem (AutoDXT, 144X144)
+[2017.10.25-22.07.55:821][ 36]LogTexture: Display: Building textures: IMG_Character (AutoDXT, 192X192)
+[2017.10.25-22.07.55:821][ 36]LogTexture: Display: Building textures: IMG_RedItem (BGRA8, 150X150)
+[2017.10.25-22.07.55:821][ 36]LogTexture: Display: Building textures: IMG_YellowItem (AutoDXT, 144X144)
+[2017.10.25-22.07.55:821][ 36]LogTexture: Display: Building textures: IMG_GreenItem (AutoDXT, 144X144)
+[2017.10.25-22.07.57:107][145]BlueprintLog: New page: Compile PWN_Main_Character
+[2017.10.25-22.08.10:747][441]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.08.10:770][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.08.10:770][441]PIE: New page: PIE session: TestMap (26 Oct 2017 8:08:10 pm)
+[2017.10.25-22.08.10:770][441]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.08.10:772][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001504s)
+[2017.10.25-22.08.10:773][441]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.08.10:773][441]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2017.10.25-22.08.10:773][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002905s)
+[2017.10.25-22.08.10:795][441]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.08.10:802][441]LogInit: FAudioDevice initialized.
+[2017.10.25-22.08.10:834][441]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.08.10:837][441]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.08.10
+[2017.10.25-22.08.10:837][441]LogWorld: Bringing up level for play took: 0.000999
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.08.10:838][441]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.08.10:839][441]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.031
+[2017.10.25-22.08.16:877][ 20]LogRenderer: Reallocating scene render targets to support 1616x1260 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-22.09.02:582][147]BlueprintLog: New page: Compile BP_Inventory_WDGT
+[2017.10.25-22.09.04:359][320]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.09.04:377][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.09.04:377][320]PIE: New page: PIE session: TestMap (26 Oct 2017 8:09:04 pm)
+[2017.10.25-22.09.04:378][320]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.09.04:379][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001446s)
+[2017.10.25-22.09.04:380][320]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.09.04:380][320]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.10.25-22.09.04:380][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002652s)
+[2017.10.25-22.09.04:402][320]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.09.04:409][320]LogInit: FAudioDevice initialized.
+[2017.10.25-22.09.04:443][320]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.09.04:445][320]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.09.04
+[2017.10.25-22.09.04:445][320]LogWorld: Bringing up level for play took: 0.001017
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.09.04:446][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.09.04:447][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.09.04:447][320]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.09.04:447][320]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.423
+[2017.10.25-22.09.34:738][713]BlueprintLog: New page: Compile BP_Inventory_WDGT
+[2017.10.25-22.09.35:021][722]BlueprintLog: New page: Compile BP_Inventory_WDGT
+[2017.10.25-22.09.36:399][862]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.09.36:417][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.09.36:417][862]PIE: New page: PIE session: TestMap (26 Oct 2017 8:09:36 pm)
+[2017.10.25-22.09.36:417][862]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.09.36:419][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001512s)
+[2017.10.25-22.09.36:420][862]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.09.36:420][862]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2017.10.25-22.09.36:420][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002671s)
+[2017.10.25-22.09.36:442][862]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.09.36:449][862]LogInit: FAudioDevice initialized.
+[2017.10.25-22.09.36:480][862]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.09.36:481][862]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.09.36
+[2017.10.25-22.09.36:482][862]LogWorld: Bringing up level for play took: 0.001123
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.09.36:484][862]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.09.36:484][862]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.385
+[2017.10.25-22.09.58:911][426]BlueprintLog: New page: Compile BP_Inventory_WDGT
+[2017.10.25-22.10.00:800][606]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.10.00:817][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.10.00:818][606]PIE: New page: PIE session: TestMap (26 Oct 2017 8:10:00 pm)
+[2017.10.25-22.10.00:818][606]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.10.00:819][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001503s)
+[2017.10.25-22.10.00:820][606]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.10.00:820][606]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2017.10.25-22.10.00:821][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003139s)
+[2017.10.25-22.10.00:843][606]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.10.00:850][606]LogInit: FAudioDevice initialized.
+[2017.10.25-22.10.00:882][606]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.10.00:884][606]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.10.00
+[2017.10.25-22.10.00:884][606]LogWorld: Bringing up level for play took: 0.000980
+[2017.10.25-22.10.00:885][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.00:886][606]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.00:886][606]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.017
+[2017.10.25-22.10.02:844][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../../../../source/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-22.10.02:893][827]LogSavePackage: Save=26.15ms
+[2017.10.25-22.10.02:893][827]LogSavePackage: Moving '../../../../../../source/InjectEm/Saved/TestMapBD59F90348C9EBC3A30C1BAE5D2CC6AA.tmp' to '../../../../../../source/InjectEm/Content/Levels/Test/TestMap.umap'
+[2017.10.25-22.10.02:895][827]LogSavePackage: Display: Finished SavePackage ../../../../../../source/InjectEm/Content/Levels/Test/TestMap.umap
+[2017.10.25-22.10.02:923][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="../../../../../../source/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
+[2017.10.25-22.10.02:945][827]LogSavePackage: Save=12.62ms
+[2017.10.25-22.10.02:945][827]LogSavePackage: Moving '../../../../../../source/InjectEm/Saved/TestMap_BuiltData147F034741419D5CFEF183B6B6E34DE0.tmp' to '../../../../../../source/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
+[2017.10.25-22.10.02:947][827]LogSavePackage: Display: Finished SavePackage ../../../../../../source/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
+[2017.10.25-22.10.03:496][891]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.10.03:514][891]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.10.03:514][891]PIE: New page: PIE session: TestMap (26 Oct 2017 8:10:03 pm)
+[2017.10.25-22.10.03:514][891]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.10.03:516][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001386s)
+[2017.10.25-22.10.03:516][891]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.10.03:517][891]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2017.10.25-22.10.03:517][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002433s)
+[2017.10.25-22.10.03:539][891]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.10.03:546][891]LogInit: FAudioDevice initialized.
+[2017.10.25-22.10.03:576][891]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.10.03:578][891]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.10.03
+[2017.10.25-22.10.03:579][891]LogWorld: Bringing up level for play took: 0.000904
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.03:580][891]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.03:580][891]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.711
+[2017.10.25-22.10.38:740][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.10.38:759][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.10.38:759][ 26]PIE: New page: PIE session: TestMap (26 Oct 2017 8:10:38 pm)
+[2017.10.25-22.10.38:759][ 26]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.10.38:760][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001394s)
+[2017.10.25-22.10.38:761][ 26]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.10.38:761][ 26]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2017.10.25-22.10.38:761][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002634s)
+[2017.10.25-22.10.38:784][ 26]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.10.38:791][ 26]LogInit: FAudioDevice initialized.
+[2017.10.25-22.10.38:821][ 26]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.10.38:824][ 26]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.10.38
+[2017.10.25-22.10.38:824][ 26]LogWorld: Bringing up level for play took: 0.001062
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.10.38:826][ 26]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.10.38:826][ 26]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.043
+[2017.10.25-22.11.03:992][ 33]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.11.04:010][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.11.04:011][ 33]PIE: New page: PIE session: TestMap (26 Oct 2017 8:11:04 pm)
+[2017.10.25-22.11.04:011][ 33]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.11.04:012][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001389s)
+[2017.10.25-22.11.04:013][ 33]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.11.04:013][ 33]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.10.25-22.11.04:013][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002525s)
+[2017.10.25-22.11.04:036][ 33]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.11.04:043][ 33]LogInit: FAudioDevice initialized.
+[2017.10.25-22.11.04:076][ 33]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.11.04:078][ 33]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.11.04
+[2017.10.25-22.11.04:078][ 33]LogWorld: Bringing up level for play took: 0.000994
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.11.04:080][ 33]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.11.04:080][ 33]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.789
+[2017.10.25-22.11.19:876][884]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.25-22.11.22:644][197]BlueprintLog: New page: Compile PWN_Main_Character
+[2017.10.25-22.11.23:040][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="../../../../../../source/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
+[2017.10.25-22.11.23:092][199]LogSavePackage: Save=43.07ms
+[2017.10.25-22.11.23:092][199]LogSavePackage: Moving '../../../../../../source/InjectEm/Saved/PWN_Main_Character6C4732754CD6B6266EFDF9ADEC050D43.tmp' to '../../../../../../source/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
+[2017.10.25-22.11.23:096][199]LogSavePackage: Display: Finished SavePackage ../../../../../../source/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
+[2017.10.25-22.11.24:816][400]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-22.11.24:835][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-22.11.24:835][400]PIE: New page: PIE session: TestMap (26 Oct 2017 8:11:24 pm)
+[2017.10.25-22.11.24:836][400]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-22.11.24:837][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2017.10.25-22.11.24:838][400]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-22.11.24:838][400]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.10.25-22.11.24:838][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002440s)
+[2017.10.25-22.11.24:863][400]LogInit: XAudio2 using 'U28E850-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-22.11.24:869][400]LogInit: FAudioDevice initialized.
+[2017.10.25-22.11.24:903][400]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-22.11.24:905][400]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-09.11.24
+[2017.10.25-22.11.24:905][400]LogWorld: Bringing up level for play took: 0.001059
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.11.24:907][400]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-22.11.24:908][400]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.039
+[2017.10.25-22.11.29:987][  7]Cmd: Blue
+[2017.10.25-22.11.29:987][  7]Command not recognized: Blue
+[2017.10.25-22.11.30:320][ 47]Cmd: Green
+[2017.10.25-22.11.30:320][ 47]Command not recognized: Green
+[2017.10.25-22.11.30:612][ 82]Cmd: Yellow
+[2017.10.25-22.11.30:612][ 82]Command not recognized: Yellow
+[2017.10.25-22.11.31:595][200]Cmd: Green
+[2017.10.25-22.11.31:595][200]Command not recognized: Green
+[2017.10.25-22.11.31:720][215]Cmd: Blue
+[2017.10.25-22.11.31:720][215]Command not recognized: Blue
+[2017.10.25-22.11.32:137][265]Cmd: Red 
+[2017.10.25-22.11.32:137][265]Command not recognized: Red 
+[2017.10.25-22.11.32:762][340]Cmd: Blue
+[2017.10.25-22.11.32:762][340]Command not recognized: Blue
+[2017.10.25-22.11.32:895][356]Cmd: Green
+[2017.10.25-22.11.32:895][356]Command not recognized: Green
+[2017.10.25-22.11.33:020][371]Cmd: Yellow
+[2017.10.25-22.11.33:020][371]Command not recognized: Yellow
+[2017.10.25-22.11.33:412][418]Cmd: Blue
+[2017.10.25-22.11.33:412][418]Command not recognized: Blue
+[2017.10.25-22.11.34:054][495]Cmd: Red 
+[2017.10.25-22.11.34:054][495]Command not recognized: Red 
+[2017.10.25-22.11.34:304][525]Cmd: Green
+[2017.10.25-22.11.34:304][525]Command not recognized: Green
+[2017.10.25-22.11.34:729][576]Cmd: Red 
+[2017.10.25-22.11.34:729][576]Command not recognized: Red 
+[2017.10.25-22.13.31:526][407]BlueprintLog: New page: Compile BP_Inventory_WDGT
+[2017.10.25-22.13.32:176][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_Inventory_WDGT" FILE="../../../../../../source/InjectEm/Content/UI/BP_Inventory_WDGT.uasset" SILENT=true
+[2017.10.25-22.13.32:206][478]LogSavePackage: Save=21.50ms
+[2017.10.25-22.13.32:206][478]LogSavePackage: Moving '../../../../../../source/InjectEm/Saved/BP_Inventory_WDGT647274D14A42E0A407F42383F4FE24DA.tmp' to '../../../../../../source/InjectEm/Content/UI/BP_Inventory_WDGT.uasset'
+[2017.10.25-22.13.32:212][478]LogSavePackage: Display: Finished SavePackage ../../../../../../source/InjectEm/Content/UI/BP_Inventory_WDGT.uasset
