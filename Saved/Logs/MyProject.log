@@ -1,17 +1,15 @@
-﻿Log file open, 10/26/17 02:47:15
+﻿Log file open, 10/26/17 03:01:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1736386980) SRandInit(-1736386980).
+LogInit: Display: RandInit(1399535160) SRandInit(1399535160).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.171400
+LogStats: Stats thread started at 0.173285
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -68,24 +66,27 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogInit: Warning: Incompatible or missing module: UE4Editor-MyProject.dll
-Running E:/Software/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject Development Win64 -project="C:/UE4StudioProject/InjectEm/MyProject.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Running D:/EpicGames/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject Development Win64 -project="D:/EpicGames/UE_4.17/Projects/InjectEm/MyProject.uproject" -editorrecompile -progress -NoHotReloadFromIDE
 Creating makefile for MyProject (no existing makefile)
 Performing full C++ include scan (no include cache file)
 @progress push 5%
+Parsing headers for MyProjectEditor
+  Running UnrealHeaderTool "D:\EpicGames\UE_4.17\Projects\InjectEm\MyProject.uproject" "D:\EpicGames\UE_4.17\Projects\InjectEm\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for MyProjectEditor in 11.9671045 seconds
 @progress pop
 Performing 9 actions (4 in parallel)
 [2/9] Resource ModuleVersionResource.rc.inl
 [3/9] Resource PCLaunch.rc
 SharedPCH.Engine.cpp
-MyProject.cpp
 SCR_Timer.gen.cpp
 MyProject.init.gen.cpp
+MyProject.cpp
 SCR_Timer.cpp
 [8/9] Link UE4Editor-MyProject.dll
 [9/9] Link UE4Editor-MyProject.lib
-   Creating library C:\UE4StudioProject\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.lib and object C:\UE4StudioProject\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.exp
-   Creating library C:\UE4StudioProject\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.lib and object C:\UE4StudioProject\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.exp
-Total build time: 38.47 seconds (Local executor: 31.29 seconds)
+   Creating library D:\EpicGames\UE_4.17\Projects\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.lib and object D:\EpicGames\UE_4.17\Projects\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.exp
+   Creating library D:\EpicGames\UE_4.17\Projects\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.lib and object D:\EpicGames\UE_4.17\Projects\InjectEm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.exp
+Total build time: 21.91 seconds (Local executor: 4.57 seconds)
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -128,978 +129,452 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: E:/Software/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: D:/EpicGames/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.25-15.47.59:086][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.25-15.47.59:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.25-15.47.59:098][  0]LogInit: Computer: RICARDOPC
-[2017.10.25-15.47.59:098][  0]LogInit: User: RicardoB
-[2017.10.25-15.47.59:098][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.25-15.47.59:098][  0]LogInit: High frequency timer resolution =3.410235 MHz
-[2017.10.25-15.47.59:098][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.25-15.47.59:098][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.25-15.47.59:098][  0]LogMemory: Process Physical Memory: 277.61 MB used, 277.61 MB peak
-[2017.10.25-15.47.59:098][  0]LogMemory: Process Virtual Memory: 274.31 MB used, 274.31 MB peak
-[2017.10.25-15.47.59:098][  0]LogMemory: Physical Memory: 9521.26 MB used,  6800.88 MB free, 16322.13 MB total
-[2017.10.25-15.47.59:098][  0]LogMemory: Virtual Memory: 664.53 MB used,  6800.88 MB free, 134217728.00 MB total
-[2017.10.25-15.47.59:199][  0]LogInit: Using OS detected language (en-GB).
-[2017.10.25-15.47.59:199][  0]LogInit: Using OS detected locale (en-AU).
-[2017.10.25-15.47.59:201][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.10.25-15.47.59:837][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.25-15.47.59:857][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2017.10.25-15.47.59:857][  0]LogD3D11RHI:       2939/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.25-15.47.59:858][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.25-15.47.59:858][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.25-15.47.59:858][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.25-15.47.59:862][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.25-15.47.59:862][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.25-15.47.59:862][  0]LogWindows: EnumDisplayDevices:
-[2017.10.25-15.47.59:862][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2017.10.25-15.47.59:862][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2017.10.25-15.47.59:863][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.10.25-15.47.59:863][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2017.10.25-15.47.59:863][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.25-15.47.59:863][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2017.10.25-15.47.59:863][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
-[2017.10.25-15.47.59:863][  0]LogD3D11RHI:      Driver Date: 7-18-2017
-[2017.10.25-15.47.59:863][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.25-15.47.59:877][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.25-15.47.59:896][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.25-15.47.59:993][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (C:/UE4StudioProject/InjectEm/Intermediate/Shaders/WorkingDirectory/8216/).
-[2017.10.25-15.47.59:993][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RicardoB/AppData/Local/Temp/UnrealShaderWorkingDir/88D55E174CF0F3B223F9B8B515C29A4A/'.
-[2017.10.25-15.47.59:993][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.25-15.48.00:846][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.25-15.48.00:885][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.25-15.48.00:921][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.25-15.48.00:959][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.25-15.48.00:999][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.25-15.48.01:037][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.25-15.48.01:076][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.25-15.48.01:114][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.25-15.48.01:145][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.25-15.48.01:205][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.25-15.48.01:257][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.25-15.48.01:308][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.25-15.48.01:375][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.25-15.48.01:433][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.25-15.48.01:476][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.25-15.48.01:561][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.25-15.48.01:562][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.25-15.48.01:593][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.25-15.48.01:691][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.25-15.48.01:728][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.25-15.48.01:776][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.25-15.48.01:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.25-15.48.01:855][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.25-15.48.01:899][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.25-15.48.01:899][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.25-15.48.02:224][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/RicardoB/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/RicardoB/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/UE4StudioProject/InjectEm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/UE4StudioProject/InjectEm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.25-15.48.02:325][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.25-15.48.02:342][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.25-15.48.02:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RicardoB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.25-15.48.02:366][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.25-15.48.02:366][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.25-15.48.02:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.25-15.48.02:366][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.25-15.48.02:661][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
-[2017.10.25-15.48.02:785][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.25-15.48.02:923][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.25-15.48.03:179][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.25-15.48.03:208][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.25-15.48.03:208][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.25-15.48.03:208][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.25-15.48.03:208][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.25-15.48.03:208][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.25-15.48.03:577][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
-[2017.10.25-15.48.03:778][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.045179 seconds
-[2017.10.25-15.48.03:784][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.25-15.48.03:784][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.25-15.48.03:784][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.25-15.48.03:832][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.25-15.48.06:074][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.25-15.48.06:102][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.25-15.48.06:947][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.25-15.48.07:236][  0]SourceControl: Source control is disabled
-[2017.10.25-15.48.07:236][  0]SourceControl: Source control is disabled
-[2017.10.25-15.48.07:267][  0]SourceControl: Source control is disabled
-[2017.10.25-15.48.07:296][  0]SourceControl: Source control is disabled
-[2017.10.25-15.48.07:656][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.25-15.48.07:809][  0]LogOcInput: OculusInput pre-init called
-[2017.10.25-15.48.07:990][  0]LogEngine: Initializing Engine...
-[2017.10.25-15.48.07:992][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.25-15.48.08:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.25-15.48.08:241][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.25-15.48.08:331][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.25-15.48.08:345][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-15.48.08:358][  0]LogInit: FAudioDevice initialized.
-[2017.10.25-15.48.08:507][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/RicardoB/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.25-15.48.08:520][  0]LogInit: Texture streaming: Enabled
-[2017.10.25-15.48.08:594][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.25-15.48.08:742][  0]LogInit: Transaction tracking system initialized
-[2017.10.25-15.48.08:938][  0]BlueprintLog: New page: Editor Load
-[2017.10.25-15.48.09:496][  0]LocalizationService: Localization service is disabled
-[2017.10.25-15.48.09:963][  0]LogConsoleResponse: Display: 
-[2017.10.25-15.48.10:130][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.25-15.48.10:130][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.25-15.48.10:130][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.25-15.48.10:821][  0]LogFileCache: Scanning file cache for directory 'C:/UE4StudioProject/InjectEm/Content/' took 0.01s
-[2017.10.25-15.48.10:821][  0]SourceControl: Source control is disabled
-[2017.10.25-15.48.10:822][  0]Cmd: MAP LOAD FILE="C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.25-15.48.10:822][  0]LightingResults: New page: Lighting Build
-[2017.10.25-15.48.10:848][  0]MapCheck: New page: Map Check
-[2017.10.25-15.48.10:848][  0]LightingResults: New page: Lighting Build
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
-[2017.10.25-15.48.11:061][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2017.10.25-15.48.11:090][  0]LogMaterial: Missing cached shader map for material MAT_Patient_Test, compiling. 
-[2017.10.25-15.48.11:264][  0]LogAIModule: Creating AISystem for world TestMap
-[2017.10.25-15.48.11:273][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.25-15.48.11:285][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.25-15.48.11:326][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.914ms to complete.
-[2017.10.25-15.48.11:326][  0]LogFileHelpers: Loading map 'TestMap' took 0.504
-[2017.10.25-15.48.11:389][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.25-15.48.11:480][  0]LogCollectionManager: Loaded 0 collections in 0.000876 seconds
-[2017.10.25-15.48.11:550][  0]LogFileCache: Scanning file cache for directory 'C:/UE4StudioProject/InjectEm/Saved/Collections/' took 0.01s
-[2017.10.25-15.48.11:550][  0]LogFileCache: Scanning file cache for directory 'C:/UE4StudioProject/InjectEm/Content/Developers/RicardoB/Collections/' took 0.01s
-[2017.10.25-15.48.11:550][  0]LogFileCache: Scanning file cache for directory 'C:/UE4StudioProject/InjectEm/Content/Collections/' took 0.01s
-[2017.10.25-15.48.11:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.25-15.48.11:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2387 classes and 502 folders.
-[2017.10.25-15.48.11:604][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
-[2017.10.25-15.48.11:646][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2017.10.25-15.48.11:680][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2017.10.25-15.48.11:774][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.25-15.48.11:777][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.25-15.48.11:785][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.25-15.48.11:931][  0]LogRenderer: Reallocating scene render targets to support 1040x508 Format 10 NumSamples 1 (Frame:1).
-[2017.10.25-15.48.12:136][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2017.10.25-15.48.12:136][  0]LogLoad: (Engine Initialization) Total time: 57.75 seconds
-[2017.10.25-15.48.12:136][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.25-15.48.12:136][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.10.25-15.48.12:179][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2017.10.25-15.48.12:234][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/UE4StudioProject/InjectEm/Content/' took 0.08s
-[2017.10.25-15.48.12:246][  1]LogAssetRegistry: Asset discovery search completed in 9.6073 seconds
-[2017.10.25-15.48.12:249][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.10.25-15.48.12:249][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2017.10.25-15.48.16:235][444]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-15.48.27:087][726]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-15.48.27:471][726]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 113 classes and 0 folders.
-[2017.10.25-15.48.28:317][726]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.25-15.48.28:318][726]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.25-15.48.35:008][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:009][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:010][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:010][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:010][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:010][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:010][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:011][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:012][378]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.48.35:017][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.48.35:018][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.48.35:020][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.48.35:020][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray01
-[2017.10.25-15.48.35:020][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray01
-[2017.10.25-15.48.35:020][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.48.35:021][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.48.35:021][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.48.35:021][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.48.35:021][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray01
-[2017.10.25-15.48.35:022][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray01
-[2017.10.25-15.48.35:022][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.48.35:022][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.48.35:022][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.48.35:023][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.48.35:023][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 01  could not be found
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:024][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 01  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 01  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.48.35:025][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:026][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:027][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 01  could not be found
-[2017.10.25-15.48.35:027][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.48.35:028][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.48.35:028][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.48.35:028][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.48.35:028][378]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.48.35:030][378]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] [0080.64] Compile of BP_SyringeUI_WDGT failed. 30 Fatal Issue(s) 30 Warning(s) [in 44 ms] (/Game/SyringeSystem/BP_SyringeUI_WDGT.BP_SyringeUI_WDGT)
-[2017.10.25-15.49.09:986][997]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.25-15.49.38:313][835]LogSlate: Took 0.019577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.10.25-15.49.43:151][131]BlueprintLog: New page: Compile PWN_Main_Character
-[2017.10.25-15.49.43:163][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:163][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:163][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:164][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:164][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:176][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:176][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:176][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:176][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:177][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:178][131]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.49.43:226][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.49.43:227][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.49.43:228][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.49.43:228][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.49.43:228][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.49.43:228][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.49.43:229][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.49.43:229][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] In use pin  Chemical Array 01  no longer exists on this node. Please refresh node or break links to remove pin.
-[2017.10.25-15.49.43:229][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] In use pin  Chemical Array 01  no longer exists on this node. Please refresh node or break links to remove pin.
-[2017.10.25-15.49.43:229][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.49.43:229][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.49.43:230][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.49.43:230][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.49.43:230][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] In use pin  Chemical Array 01  no longer exists on this node. Please refresh node or break links to remove pin.
-[2017.10.25-15.49.43:230][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] In use pin  Chemical Array 01  no longer exists on this node. Please refresh node or break links to remove pin.
-[2017.10.25-15.49.43:230][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.49.43:231][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.49.43:231][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.49.43:231][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.49.43:231][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.49.43:234][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.49.43:235][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.49.43:236][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:236][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:236][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:236][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:237][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.49.43:237][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.49.43:237][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.49.43:237][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.49.43:238][131]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] Binding: Property ' TextDelegate ' on Widget ' TextBlock_1 ': Binding: 'ChemicalSelection_Slot1' : 'ChemicalSelection_Slot1' was not found on 'BP Syringe UI WDGT'.
-[2017.10.25-15.49.43:246][131]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] [0148.86] Compile of BP_SyringeUI_WDGT failed. 30 Fatal Issue(s) 26 Warning(s) [in 87 ms] (/Game/SyringeSystem/BP_SyringeUI_WDGT.BP_SyringeUI_WDGT)
-[2017.10.25-15.49.43:818][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.49.43:878][144]LogSavePackage: Save=49.13ms
-[2017.10.25-15.49.43:878][144]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_CharacterB07D07D74B216E2BAE2B8885207ECAB0.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.49.43:880][144]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.50.01:891][269]BlueprintLog: New page: Compile PWN_Main_Character
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:900][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex01' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:901][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalArray03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex02' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:902][269]LogBlueprint: Warning: [BP_SyringeUI_WDGT] 'ChemicalIndex03' variable not found. Base class was probably changed.
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex02
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.50.01:951][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.50.01:952][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.50.01:952][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.50.01:952][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.50.01:952][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.50.01:953][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.50.01:953][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.50.01:953][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.50.01:954][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.50.01:954][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Set ChemicalIndex01
-[2017.10.25-15.50.01:954][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex01" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex01
-[2017.10.25-15.50.01:955][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray02
-[2017.10.25-15.50.01:955][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex02" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex02
-[2017.10.25-15.50.01:955][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalArray03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalArray03
-[2017.10.25-15.50.01:955][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] Could not find a variable named "ChemicalIndex03" in 'PWN_Main_Character_C'.
-Make sure 'PWN_Main_Character_C' has been compiled for  Get ChemicalIndex03
-[2017.10.25-15.50.01:957][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:958][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.50.01:959][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.50.01:960][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:960][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:960][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:960][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:961][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 01  could not be found
-[2017.10.25-15.50.01:961][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 02  could not be found
-[2017.10.25-15.50.01:961][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 02  could not be found
-[2017.10.25-15.50.01:961][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Array 03  could not be found
-[2017.10.25-15.50.01:961][269]LogBlueprint: Error: [Compiler BP_SyringeUI_WDGT] The property associated with  Chemical Index 03  could not be found
-[2017.10.25-15.50.01:965][269]LogClass: Warning: Type mismatch in ChemicalArray01 of PWN_Main_Character_C - Previous (NameProperty) Current(ArrayProperty) for package:  FObjectReader
-[2017.10.25-15.50.01:971][269]LogBlueprint: Warning: [Compiler BP_SyringeUI_WDGT] [0167.58] Compile of BP_SyringeUI_WDGT failed. 26 Fatal Issue(s) 26 Warning(s) [in 73 ms] (/Game/SyringeSystem/BP_SyringeUI_WDGT.BP_SyringeUI_WDGT)
-[2017.10.25-15.50.54:902][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.50.54:957][728]LogSavePackage: Save=50.08ms
-[2017.10.25-15.50.54:957][728]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_Character27830A9F41E4EC2B1D1A028B6680D6C7.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.50.54:959][728]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.51.08:539][624]BlueprintLog: New page: Compile PWN_Main_Character
-[2017.10.25-15.51.09:353][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.51.09:407][650]LogSavePackage: Save=49.81ms
-[2017.10.25-15.51.09:407][650]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_Character0D3EB6614D35FD2336DB71BB7AF4D1AE.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.51.09:409][650]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.51.13:474][887]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-15.51.13:517][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-15.51.13:517][887]PIE: New page: PIE session: TestMap (26 Oct 2017 1:51:13 pm)
-[2017.10.25-15.51.13:517][887]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
-[2017.10.25-15.51.13:520][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002355s)
-[2017.10.25-15.51.13:520][887]LogAIModule: Creating AISystem for world TestMap
-[2017.10.25-15.51.13:521][887]LogPlayLevel: PIE: World Init took: (0.000837s)
-[2017.10.25-15.51.13:521][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003481s)
-[2017.10.25-15.51.13:549][887]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-15.51.13:558][887]LogInit: FAudioDevice initialized.
-[2017.10.25-15.51.13:624][887]LogLoad: Game class is 'GM_Main_Game_C'
-[2017.10.25-15.51.13:626][887]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-02.51.13
-[2017.10.25-15.51.13:626][887]LogWorld: Bringing up level for play took: 0.001326
-[2017.10.25-15.51.13:658][887]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.13:723][887]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.13:723][887]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.123
-[2017.10.25-15.51.18:836][229]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-15.51.18:856][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-15.51.18:856][229]PIE: New page: PIE session: TestMap (26 Oct 2017 1:51:18 pm)
-[2017.10.25-15.51.18:856][229]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
-[2017.10.25-15.51.18:858][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001923s)
-[2017.10.25-15.51.18:859][229]LogAIModule: Creating AISystem for world TestMap
-[2017.10.25-15.51.18:860][229]LogPlayLevel: PIE: World Init took: (0.001321s)
-[2017.10.25-15.51.18:860][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003515s)
-[2017.10.25-15.51.18:885][229]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-15.51.18:895][229]LogInit: FAudioDevice initialized.
-[2017.10.25-15.51.18:930][229]LogLoad: Game class is 'GM_Main_Game_C'
-[2017.10.25-15.51.18:932][229]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-02.51.18
-[2017.10.25-15.51.18:933][229]LogWorld: Bringing up level for play took: 0.001330
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.18:934][229]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.18:934][229]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.667
-[2017.10.25-15.51.48:489][341]BlueprintLog: New page: Compile PWN_Main_Character
-[2017.10.25-15.51.49:153][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.51.49:210][362]LogSavePackage: Save=52.35ms
-[2017.10.25-15.51.49:210][362]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_Character7032E08C4F9531B3268647A23D2458CE.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.51.49:211][362]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.51.49:719][402]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-15.51.49:740][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-15.51.49:740][402]PIE: New page: PIE session: TestMap (26 Oct 2017 1:51:49 pm)
-[2017.10.25-15.51.49:741][402]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
-[2017.10.25-15.51.49:744][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002950s)
-[2017.10.25-15.51.49:745][402]LogAIModule: Creating AISystem for world TestMap
-[2017.10.25-15.51.49:745][402]LogPlayLevel: PIE: World Init took: (0.001216s)
-[2017.10.25-15.51.49:745][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.004480s)
-[2017.10.25-15.51.49:769][402]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-15.51.49:781][402]LogInit: FAudioDevice initialized.
-[2017.10.25-15.51.49:817][402]LogLoad: Game class is 'GM_Main_Game_C'
-[2017.10.25-15.51.49:818][402]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-02.51.49
-[2017.10.25-15.51.49:819][402]LogWorld: Bringing up level for play took: 0.001553
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.49:823][402]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.49:823][402]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.222
-[2017.10.25-15.51.53:442][712]LogTemp: Repeating last play command: Selected Viewport
-[2017.10.25-15.51.53:462][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.25-15.51.53:463][712]PIE: New page: PIE session: TestMap (26 Oct 2017 1:51:53 pm)
-[2017.10.25-15.51.53:463][712]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
-[2017.10.25-15.51.53:465][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
-[2017.10.25-15.51.53:466][712]LogAIModule: Creating AISystem for world TestMap
-[2017.10.25-15.51.53:466][712]LogPlayLevel: PIE: World Init took: (0.001240s)
-[2017.10.25-15.51.53:466][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003467s)
-[2017.10.25-15.51.53:492][712]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.25-15.51.53:501][712]LogInit: FAudioDevice initialized.
-[2017.10.25-15.51.53:537][712]LogLoad: Game class is 'GM_Main_Game_C'
-[2017.10.25-15.51.53:539][712]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-02.51.53
-[2017.10.25-15.51.53:539][712]LogWorld: Bringing up level for play took: 0.001266
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
-[2017.10.25-15.51.53:542][712]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
-[2017.10.25-15.51.53:542][712]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.059
-[2017.10.25-15.52.03:532][899]Cmd: Blue
-[2017.10.25-15.52.03:532][899]Command not recognized: Blue
-[2017.10.25-15.52.03:982][953]Cmd: Green
-[2017.10.25-15.52.03:982][953]Command not recognized: Green
-[2017.10.25-15.52.04:870][ 59]Cmd: Blue
-[2017.10.25-15.52.04:870][ 59]Command not recognized: Blue
-[2017.10.25-15.52.05:028][ 78]Cmd: Red 
-[2017.10.25-15.52.05:028][ 78]Command not recognized: Red 
-[2017.10.25-15.52.05:564][142]Cmd: Red 
-[2017.10.25-15.52.05:564][142]Command not recognized: Red 
-[2017.10.25-15.52.06:181][216]Cmd: Blue
-[2017.10.25-15.52.06:181][216]Command not recognized: Blue
-[2017.10.25-15.52.06:349][236]Cmd: Green
-[2017.10.25-15.52.06:349][236]Command not recognized: Green
-[2017.10.25-15.52.06:502][254]Cmd: Yellow
-[2017.10.25-15.52.06:502][254]Command not recognized: Yellow
-[2017.10.25-15.52.07:297][349]Cmd: Red 
-[2017.10.25-15.52.07:297][349]Command not recognized: Red 
-[2017.10.25-15.52.07:480][371]Cmd: Red 
-[2017.10.25-15.52.07:480][371]Command not recognized: Red 
-[2017.10.25-15.52.08:164][453]Cmd: Blue
-[2017.10.25-15.52.08:164][453]Command not recognized: Blue
-[2017.10.25-15.52.08:314][471]Cmd: Green
-[2017.10.25-15.52.08:314][471]Command not recognized: Green
-[2017.10.25-15.52.08:472][490]Cmd: Yellow
-[2017.10.25-15.52.08:472][490]Command not recognized: Yellow
-[2017.10.25-15.52.09:613][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.25-15.52.09:684][612]LogSavePackage: Save=43.39ms
-[2017.10.25-15.52.09:684][612]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/TestMap69E99AF8439DC684D596C7BF8E6A44AC.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap'
-[2017.10.25-15.52.09:685][612]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap
-[2017.10.25-15.52.09:715][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
-[2017.10.25-15.52.09:741][612]LogSavePackage: Save=15.54ms
-[2017.10.25-15.52.09:741][612]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/TestMap_BuiltData27C0ED734F1E0C3AE5D2459F9006F00C.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
-[2017.10.25-15.52.09:742][612]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
-[2017.10.25-15.52.16:638][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.52.16:688][254]LogSavePackage: Save=44.60ms
-[2017.10.25-15.52.16:688][254]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_Character1B8A5A384747320ECD0168ACD39223F8.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.52.16:689][254]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.52.45:294][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Player/PWN_Main_Character" FILE="C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset" SILENT=true
-[2017.10.25-15.52.45:345][502]LogSavePackage: Save=46.35ms
-[2017.10.25-15.52.45:345][502]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/PWN_Main_CharacterEEE42CFB405756247B8B5CB07D8871E0.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset'
-[2017.10.25-15.52.45:346][502]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Characters/Player/PWN_Main_Character.uasset
-[2017.10.25-15.52.46:604][592]EditorErrors: Warning: 
-[2017.10.25-15.52.46:695][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.25-15.52.46:753][592]LogSavePackage: Save=31.89ms
-[2017.10.25-15.52.46:753][592]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/TestMap5BDE7B5D4005A79EAE6466A12D900C84.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap'
-[2017.10.25-15.52.46:754][592]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap.umap
-[2017.10.25-15.52.46:783][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
-[2017.10.25-15.52.46:800][592]LogSavePackage: Save=12.71ms
-[2017.10.25-15.52.46:800][592]LogSavePackage: Moving 'C:/UE4StudioProject/InjectEm/Saved/TestMap_BuiltData57E8A7044EBDE3A7A2044B825ECF543D.tmp' to 'C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
-[2017.10.25-15.52.46:801][592]LogSavePackage: Display: Finished SavePackage C:/UE4StudioProject/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
-[2017.10.25-15.52.48:431][769]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.25-15.52.48:580][770]Cmd: QUIT_EDITOR
-[2017.10.25-15.52.49:254][770]LogExit: Preparing to exit.
-[2017.10.25-15.52.50:467][770]LogExit: Editor shut down
-[2017.10.25-15.52.50:470][770]LogExit: Transaction tracking system shut down
-[2017.10.25-15.52.50:652][770]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.10.25-15.52.50:652][770]LogDirectoryWatcher: A directory notification for 'C:/UE4StudioProject/InjectEm/Content/' was aborted.
-[2017.10.25-15.52.50:652][770]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.10.25-15.52.50:652][770]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.10.25-15.52.50:652][770]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.10.25-15.52.50:734][770]LogExit: Object subsystem successfully closed.
-[2017.10.25-15.52.50:747][770]LogD3D11RHI: Shutdown
-[2017.10.25-15.52.50:747][770]LogD3D11RHI: CleanupD3DDevice
-[2017.10.25-15.52.50:854][770]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (540)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module SequencerWidgets (538)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2017.10.25-15.52.50:863][770]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2017.10.25-15.52.50:863][770]LogDirectoryWatcher: A directory notification for 'E:/Software/UE_4.17/FeaturePacks/' was aborted.
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2017.10.25-15.52.50:864][770]LogDirectoryWatcher: A directory notification for 'C:/UE4StudioProject/InjectEm/Content/Collections/' was aborted.
-[2017.10.25-15.52.50:864][770]LogDirectoryWatcher: A directory notification for 'C:/UE4StudioProject/InjectEm/Content/Developers/RicardoB/Collections/' was aborted.
-[2017.10.25-15.52.50:864][770]LogDirectoryWatcher: A directory notification for 'C:/UE4StudioProject/InjectEm/Saved/Collections/' was aborted.
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.10.25-15.52.50:864][770]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.10.25-15.52.50:865][770]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.10.25-15.52.50:930][770]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.10.25-15.52.50:931][770]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.10.25-15.52.50:975][770]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.10.25-15.52.50:982][770]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.10.25-15.52.50:983][770]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.10.25-15.52.50:984][770]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.10.25-15.52.51:157][770]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module SourceControl (285)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
-[2017.10.25-15.52.51:158][770]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module MainFrame (270)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module HotReload (269)
-[2017.10.25-15.52.51:159][770]LogDirectoryWatcher: A directory notification for 'C:/UE4StudioProject/InjectEm/Binaries/Win64' was aborted.
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module MyProject (264)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
-[2017.10.25-15.52.51:159][770]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
-[2017.10.25-15.52.51:260][770]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (244)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (242)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module FacialAnimation (240)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (238)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module GraphEditor (237)
-[2017.10.25-15.52.51:361][770]LogModuleManager: Shutting down and abandoning module ContentBrowser (235)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module Paper2D (230)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (228)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module WmfMedia (226)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module VREditor (212)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module StringTableEditor (210)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (208)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (206)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module FunctionalTesting (204)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (202)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (201)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module UMG (198)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module UMGEditor (197)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module Sequencer (196)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module MessageLog (193)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module SlateReflector (188)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module Slate (186)
-[2017.10.25-15.52.51:362][770]LogModuleManager: Shutting down and abandoning module EditorStyle (184)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module MRMesh (182)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (180)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (178)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module XAudio2 (176)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module Networking (174)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module Core (170)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.10.25-15.52.51:364][770]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.10.25-15.52.51:365][770]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.10.25-15.52.51:365][770]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (148)
-[2017.10.25-15.52.51:365][770]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
-[2017.10.25-15.52.51:439][770]LogDerivedDataCache: Shutdown
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
-[2017.10.25-15.52.51:439][770]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Messaging (103)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module InputCore (62)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module Settings (60)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module PhysXCooking (58)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module SteamVR (56)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module OculusHMD (54)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2017.10.25-15.52.51:440][770]LogOnline: Display: Unloading online subsystem: NULL
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2017.10.25-15.52.51:440][770]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2017.10.25-15.52.51:440][770]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.10.25-15.52.51:440][770]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B73F16E28-422F-2240-E904-CCB3BEE716AC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0f1b06f744dd524406daf9942190c72d%7Cc1937645ac6944d5afa1a9bcaa1303b1%7C6923ac25-2993-4f60-9935-a5fef3bbb200&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.10.25-15.52.51:458][770]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.10.25-15.52.51:459][770]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.10.25-15.52.51:460][770]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.10.25-15.52.51:463][770]LogExit: Exiting.
-[2017.10.25-15.52.51:476][770]Log file closed, 10/26/17 02:52:51
+[2017.10.25-16.01.36:155][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-16.01.36:155][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-16.01.36:165][  0]LogInit: Computer: DESKTOP-F1MHD0O
+[2017.10.25-16.01.36:165][  0]LogInit: User: User
+[2017.10.25-16.01.36:165][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-16.01.36:165][  0]LogInit: High frequency timer resolution =3.515620 MHz
+[2017.10.25-16.01.36:165][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.25-16.01.36:165][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-16.01.36:165][  0]LogMemory: Process Physical Memory: 282.50 MB used, 282.50 MB peak
+[2017.10.25-16.01.36:165][  0]LogMemory: Process Virtual Memory: 274.96 MB used, 274.96 MB peak
+[2017.10.25-16.01.36:165][  0]LogMemory: Physical Memory: 5068.80 MB used,  11232.05 MB free, 16300.85 MB total
+[2017.10.25-16.01.36:165][  0]LogMemory: Virtual Memory: 709.16 MB used,  11232.05 MB free, 134217728.00 MB total
+[2017.10.25-16.01.36:293][  0]LogInit: Using OS detected language (en-GB).
+[2017.10.25-16.01.36:293][  0]LogInit: Using OS detected locale (en-AU).
+[2017.10.25-16.01.36:296][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.10.25-16.01.37:016][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-16.01.37:676][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2017.10.25-16.01.37:676][  0]LogD3D11RHI:       3039/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.25-16.01.37:683][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.25-16.01.37:683][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.25-16.01.37:684][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-16.01.37:684][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-16.01.37:684][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-16.01.37:691][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-16.01.37:692][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-16.01.37:692][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-16.01.37:692][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2017.10.25-16.01.37:692][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-16.01.37:692][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-16.01.37:692][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-16.01.37:693][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.10.25-16.01.37:693][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.25-16.01.37:693][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.25-16.01.37:693][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.25-16.01.37:693][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2017.10.25-16.01.37:693][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.25-16.01.37:693][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.25-16.01.37:693][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-16.01.38:326][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-16.01.38:364][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.25-16.01.38:413][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../Projects/InjectEm/Intermediate/Shaders/WorkingDirectory/13516/).
+[2017.10.25-16.01.38:414][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/F87F5E8E44E12D3D95CE5490FC9C58F5/'.
+[2017.10.25-16.01.38:414][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-16.01.39:313][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-16.01.39:354][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-16.01.39:394][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-16.01.39:438][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-16.01.39:477][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-16.01.39:517][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-16.01.39:560][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-16.01.39:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-16.01.39:638][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-16.01.39:680][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-16.01.39:720][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-16.01.39:757][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-16.01.39:800][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-16.01.39:840][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-16.01.39:877][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-16.01.39:965][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-16.01.39:965][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-16.01.39:993][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-16.01.40:069][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-16.01.40:093][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-16.01.40:137][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-16.01.40:179][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-16.01.40:219][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-16.01.40:258][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-16.01.40:258][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-16.01.40:609][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-16.01.40:719][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-16.01.40:719][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-16.01.40:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../Projects/InjectEm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-16.01.40:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-16.01.40:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../Projects/InjectEm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-16.01.40:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-16.01.40:743][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-16.01.40:757][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-16.01.40:767][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-16.01.40:767][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-16.01.40:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-16.01.40:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-16.01.41:063][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.10.25-16.01.41:173][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-16.01.41:314][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-16.01.41:570][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-16.01.41:599][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-16.01.41:599][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-16.01.41:599][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-16.01.41:599][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-16.01.41:599][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-16.01.41:949][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.25-16.01.42:155][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.060273 seconds
+[2017.10.25-16.01.42:163][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-16.01.42:163][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.25-16.01.42:163][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-16.01.42:204][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-16.01.44:450][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-16.01.44:481][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-16.01.45:022][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-16.01.45:337][  0]SourceControl: Source control is disabled
+[2017.10.25-16.01.45:337][  0]SourceControl: Source control is disabled
+[2017.10.25-16.01.45:371][  0]SourceControl: Source control is disabled
+[2017.10.25-16.01.45:402][  0]SourceControl: Source control is disabled
+[2017.10.25-16.01.45:808][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-16.01.45:998][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-16.01.46:198][  0]LogEngine: Initializing Engine...
+[2017.10.25-16.01.46:200][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-16.01.46:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-16.01.46:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-16.01.46:570][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-16.01.46:583][  0]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-16.01.46:595][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-16.01.46:689][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-16.01.46:697][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-16.01.46:780][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-16.01.46:972][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-16.01.47:199][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-16.01.47:429][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-16.01.48:088][  0]LocalizationService: Localization service is disabled
+[2017.10.25-16.01.48:627][  0]LogConsoleResponse: Display: 
+[2017.10.25-16.01.48:789][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-16.01.48:789][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-16.01.48:789][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-16.01.49:597][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/' took 0.01s
+[2017.10.25-16.01.49:597][  0]SourceControl: Source control is disabled
+[2017.10.25-16.01.49:597][  0]Cmd: MAP LOAD FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-16.01.49:598][  0]LightingResults: New page: Lighting Build
+[2017.10.25-16.01.49:633][  0]MapCheck: New page: Map Check
+[2017.10.25-16.01.49:633][  0]LightingResults: New page: Lighting Build
+[2017.10.25-16.01.49:873][  0]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-16.01.49:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-16.01.49:894][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-16.01.49:930][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.867ms to complete.
+[2017.10.25-16.01.49:930][  0]LogFileHelpers: Loading map 'TestMap' took 0.334
+[2017.10.25-16.01.50:073][  0]LogCollectionManager: Loaded 0 collections in 0.001197 seconds
+[2017.10.25-16.01.50:155][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Saved/Collections/' took 0.01s
+[2017.10.25-16.01.50:155][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Developers/User/Collections/' took 0.01s
+[2017.10.25-16.01.50:155][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Collections/' took 0.01s
+[2017.10.25-16.01.50:155][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.25-16.01.50:165][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2387 classes and 502 folders.
+[2017.10.25-16.01.50:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.10.25-16.01.50:257][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.10.25-16.01.50:290][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.25-16.01.50:315][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-16.01.50:318][  0]LogSlate: Took 0.000456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-16.01.50:327][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-16.01.50:440][  0]LogRenderer: Reallocating scene render targets to support 1208x728 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-16.01.50:614][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.10.25-16.01.50:615][  0]LogLoad: (Engine Initialization) Total time: 39.87 seconds
+[2017.10.25-16.01.50:615][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-16.01.50:615][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-16.01.50:615][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-16.01.50:653][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-16.01.50:690][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-16.01.50:696][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/' took 0.06s
+[2017.10.25-16.01.52:836][245]LogAssetRegistry: Asset discovery search completed in 11.7949 seconds
+[2017.10.25-16.01.52:839][245]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.25-16.01.52:839][245]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
+[2017.10.25-16.01.54:803][461]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-16.01.54:955][462]Cmd: QUIT_EDITOR
+[2017.10.25-16.01.54:984][462]LogExit: Preparing to exit.
+[2017.10.25-16.01.55:649][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/' was aborted.
+[2017.10.25-16.01.55:690][462]LogExit: Editor shut down
+[2017.10.25-16.01.55:695][462]LogExit: Transaction tracking system shut down
+[2017.10.25-16.01.55:803][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.25-16.01.55:803][462]LogDirectoryWatcher: A directory notification for '../../../Projects/InjectEm/Content/' was aborted.
+[2017.10.25-16.01.55:803][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.25-16.01.55:803][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.25-16.01.55:803][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.25-16.01.55:870][462]LogExit: Object subsystem successfully closed.
+[2017.10.25-16.01.56:058][462]LogD3D11RHI: Shutdown
+[2017.10.25-16.01.56:059][462]LogD3D11RHI: CleanupD3DDevice
+[2017.10.25-16.01.56:380][462]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.10.25-16.01.56:394][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.10.25-16.01.56:394][462]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.10.25-16.01.56:394][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Collections/' was aborted.
+[2017.10.25-16.01.56:395][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Developers/User/Collections/' was aborted.
+[2017.10.25-16.01.56:395][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/Projects/InjectEm/Saved/Collections/' was aborted.
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.10.25-16.01.56:395][462]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.10.25-16.01.56:396][462]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.10.25-16.01.57:386][462]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.10.25-16.01.57:387][462]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.10.25-16.01.57:440][462]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.10.25-16.01.57:441][462]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.10.25-16.01.57:664][462]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module UObjectPlugin (292)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (290)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (288)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module GitSourceControl (286)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module SourceControl (285)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (282)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (280)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (278)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module Paper2DEditor (276)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module MeshPaint (275)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module LevelEditor (273)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (272)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module MainFrame (270)
+[2017.10.25-16.01.57:665][462]LogModuleManager: Shutting down and abandoning module HotReload (269)
+[2017.10.25-16.01.57:666][462]LogDirectoryWatcher: A directory notification for 'D:/EpicGames/UE_4.17/Projects/InjectEm/Binaries/Win64' was aborted.
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module MyProject (264)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2017.10.25-16.01.57:666][462]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2017.10.25-16.01.57:767][462]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (244)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (242)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module FacialAnimation (240)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (238)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module GraphEditor (237)
+[2017.10.25-16.01.57:867][462]LogModuleManager: Shutting down and abandoning module ContentBrowser (235)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module Paper2D (230)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (228)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module WmfMedia (226)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module VREditor (212)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module StringTableEditor (210)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (208)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (206)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module FunctionalTesting (204)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (202)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (201)
+[2017.10.25-16.01.57:868][462]LogModuleManager: Shutting down and abandoning module UMG (198)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module UMGEditor (197)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module Sequencer (196)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module MessageLog (193)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module SlateReflector (188)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module Slate (186)
+[2017.10.25-16.01.57:869][462]LogModuleManager: Shutting down and abandoning module EditorStyle (184)
+[2017.10.25-16.01.57:870][462]LogModuleManager: Shutting down and abandoning module MRMesh (182)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (180)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (178)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module XAudio2 (176)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module Networking (174)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module Core (170)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module LevelSequence (164)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (148)
+[2017.10.25-16.01.57:871][462]LogModuleManager: Shutting down and abandoning module DerivedDataCache (146)
+[2017.10.25-16.01.58:268][462]LogDerivedDataCache: Shutdown
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2017.10.25-16.01.58:268][462]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (113)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (111)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (109)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (107)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (105)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Messaging (103)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (101)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (99)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (83)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (81)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (79)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (77)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (75)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (73)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (71)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (69)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (67)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (65)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module InputCore (62)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module Settings (60)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module PhysXCooking (58)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module SteamVR (56)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module OculusHMD (54)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (52)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2017.10.25-16.01.58:269][462]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.25-16.01.58:269][462]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2017.10.25-16.01.58:270][462]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2017.10.25-16.01.58:270][462]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.25-16.01.58:270][462]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB91F65E1-40CA-E033-7B4F-2082E328B4FF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=8313fcad4c11188f8f1f81bf7b3972f6%7C4387ce2eaf75474484f1b9769ba013e5%7C79be0157-1c2f-4fe1-bf81-41c8171b4bc3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.25-16.01.58:275][462]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.25-16.01.58:277][462]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.25-16.01.58:278][462]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.25-16.01.58:280][462]LogExit: Exiting.
+[2017.10.25-16.01.58:293][462]Log file closed, 10/26/17 03:01:58
