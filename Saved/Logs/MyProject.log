@@ -1,0 +1,1007 @@
+﻿Log file open, 10/25/17 23:52:44
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(302186476) SRandInit(302186476).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158252
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/EpicGames/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.25-12.52.44:708][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-12.52.44:708][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.25-12.52.44:715][  0]LogInit: Computer: DESKTOP-F1MHD0O
+[2017.10.25-12.52.44:715][  0]LogInit: User: User
+[2017.10.25-12.52.44:715][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.25-12.52.44:715][  0]LogInit: High frequency timer resolution =3.515620 MHz
+[2017.10.25-12.52.44:715][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.25-12.52.44:715][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.25-12.52.44:715][  0]LogMemory: Process Physical Memory: 278.56 MB used, 278.56 MB peak
+[2017.10.25-12.52.44:715][  0]LogMemory: Process Virtual Memory: 274.22 MB used, 274.22 MB peak
+[2017.10.25-12.52.44:715][  0]LogMemory: Physical Memory: 6599.38 MB used,  9701.46 MB free, 16300.85 MB total
+[2017.10.25-12.52.44:715][  0]LogMemory: Virtual Memory: 673.86 MB used,  9701.46 MB free, 134217728.00 MB total
+[2017.10.25-12.52.44:828][  0]LogInit: Using OS detected language (en-GB).
+[2017.10.25-12.52.44:828][  0]LogInit: Using OS detected locale (en-AU).
+[2017.10.25-12.52.44:831][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.10.25-12.52.45:428][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.25-12.52.46:014][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2017.10.25-12.52.46:014][  0]LogD3D11RHI:       3039/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.25-12.52.46:019][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.25-12.52.46:019][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.25-12.52.46:020][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.25-12.52.46:020][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.25-12.52.46:020][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.25-12.52.46:027][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.25-12.52.46:027][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.25-12.52.46:027][  0]LogWindows: EnumDisplayDevices:
+[2017.10.25-12.52.46:027][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2017.10.25-12.52.46:027][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-12.52.46:028][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-12.52.46:028][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.10.25-12.52.46:028][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.10.25-12.52.46:028][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.25-12.52.46:028][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.25-12.52.46:028][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.25-12.52.46:028][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2017.10.25-12.52.46:028][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.25-12.52.46:028][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.25-12.52.46:028][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.25-12.52.46:581][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.25-12.52.46:607][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.25-12.52.46:656][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (../../../Projects/InjectEm/Intermediate/Shaders/WorkingDirectory/14736/).
+[2017.10.25-12.52.46:656][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/0BD6535F4503D38329C248B01C8013E7/'.
+[2017.10.25-12.52.46:656][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.25-12.52.47:397][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.25-12.52.47:429][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.25-12.52.47:461][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.25-12.52.47:501][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.25-12.52.47:533][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.25-12.52.47:567][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.25-12.52.47:599][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.25-12.52.47:632][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.25-12.52.47:659][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.25-12.52.47:690][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.25-12.52.47:727][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.25-12.52.47:761][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.25-12.52.47:793][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.25-12.52.47:825][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.25-12.52.47:856][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.25-12.52.47:918][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.25-12.52.47:918][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.25-12.52.47:941][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.25-12.52.48:007][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.25-12.52.48:027][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.25-12.52.48:058][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.25-12.52.48:090][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.25-12.52.48:122][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.25-12.52.48:154][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.25-12.52.48:154][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.25-12.52.48:448][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../Projects/InjectEm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../Projects/InjectEm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.25-12.52.48:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.25-12.52.48:551][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.25-12.52.48:564][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.25-12.52.48:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.25-12.52.48:573][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.25-12.52.48:574][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-12.52.48:574][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.25-12.52.48:801][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.10.25-12.52.48:888][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.25-12.52.49:001][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.25-12.52.49:200][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.25-12.52.49:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.25-12.52.49:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.25-12.52.49:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.25-12.52.49:224][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.25-12.52.49:224][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.25-12.52.49:507][  0]LogNetVersion: MyProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3113362612)
+[2017.10.25-12.52.49:664][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.040109 seconds
+[2017.10.25-12.52.49:670][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.25-12.52.49:670][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.25-12.52.49:670][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.25-12.52.49:704][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.25-12.52.51:514][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.25-12.52.51:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.25-12.52.51:982][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.25-12.52.52:241][  0]SourceControl: Source control is disabled
+[2017.10.25-12.52.52:241][  0]SourceControl: Source control is disabled
+[2017.10.25-12.52.52:268][  0]SourceControl: Source control is disabled
+[2017.10.25-12.52.52:296][  0]SourceControl: Source control is disabled
+[2017.10.25-12.52.52:639][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.25-12.52.52:785][  0]LogOcInput: OculusInput pre-init called
+[2017.10.25-12.52.52:955][  0]LogEngine: Initializing Engine...
+[2017.10.25-12.52.52:957][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.25-12.52.53:153][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.25-12.52.53:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.25-12.52.53:232][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.25-12.52.53:243][  0]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.52.53:254][  0]LogInit: FAudioDevice initialized.
+[2017.10.25-12.52.53:337][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/User/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.25-12.52.53:343][  0]LogInit: Texture streaming: Enabled
+[2017.10.25-12.52.53:413][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.25-12.52.53:549][  0]LogInit: Transaction tracking system initialized
+[2017.10.25-12.52.53:736][  0]BlueprintLog: New page: Editor Load
+[2017.10.25-12.52.54:258][  0]LocalizationService: Localization service is disabled
+[2017.10.25-12.52.54:666][  0]LogConsoleResponse: Display: 
+[2017.10.25-12.52.54:795][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.25-12.52.54:795][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.25-12.52.54:795][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.25-12.52.54:977][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/' took 0.01s
+[2017.10.25-12.52.55:397][  0]SourceControl: Source control is disabled
+[2017.10.25-12.52.55:397][  0]Cmd: MAP LOAD FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.25-12.52.55:397][  0]LightingResults: New page: Lighting Build
+[2017.10.25-12.52.55:420][  0]MapCheck: New page: Map Check
+[2017.10.25-12.52.55:420][  0]LightingResults: New page: Lighting Build
+[2017.10.25-12.52.55:592][  0]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.52.55:596][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.25-12.52.55:609][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.25-12.52.55:641][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 30.928ms to complete.
+[2017.10.25-12.52.55:641][  0]LogFileHelpers: Loading map 'TestMap' took 0.244
+[2017.10.25-12.52.55:699][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.25-12.52.55:767][  0]LogCollectionManager: Loaded 0 collections in 0.000815 seconds
+[2017.10.25-12.52.55:830][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Saved/Collections/' took 0.01s
+[2017.10.25-12.52.55:830][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Developers/User/Collections/' took 0.01s
+[2017.10.25-12.52.55:830][  0]LogFileCache: Scanning file cache for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/Collections/' took 0.01s
+[2017.10.25-12.52.55:830][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.25-12.52.55:839][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2017.10.25-12.52.55:882][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.25-12.52.55:912][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.25-12.52.55:940][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.25-12.52.55:960][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-12.52.55:962][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.25-12.52.55:969][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.25-12.52.56:084][  0]LogRenderer: Reallocating scene render targets to support 1208x728 Format 10 NumSamples 1 (Frame:1).
+[2017.10.25-12.52.56:242][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.25-12.52.56:242][  0]LogLoad: (Engine Initialization) Total time: 12.75 seconds
+[2017.10.25-12.52.56:242][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.25-12.52.56:242][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.25-12.52.56:242][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.25-12.52.56:293][  0]LogAssetRegistry: Asset discovery search completed in 7.5143 seconds
+[2017.10.25-12.52.56:295][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.25-12.52.56:295][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.10.25-12.52.56:297][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.25-12.52.56:332][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-12.52.56:336][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/EpicGames/UE_4.17/Projects/InjectEm/Content/' took 0.07s
+[2017.10.25-12.52.57:278][109]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-12.53.00:590][503]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-12.53.02:466][713]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.25-12.53.02:769][713]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2017.10.25-12.53.03:401][713]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.25-12.53.03:466][713]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.25-12.53.14:098][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.53.14:130][505]LogSavePackage: Save=28.47ms
+[2017.10.25-12.53.14:130][505]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupB55AFB8245A6BB36DCB3C78D0168EB11.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.53.14:132][505]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.53.19:373][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.53.19:405][948]LogSavePackage: Save=29.70ms
+[2017.10.25-12.53.19:405][948]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupB03A4B684B785ED9BA20819B0F642834.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.53.19:407][948]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.53.24:588][397]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.53.27:123][524]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.53.27:169][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.53.27:169][524]PIE: New page: PIE session: TestMap (26 Oct 2017 10:53:27 am)
+[2017.10.25-12.53.27:169][524]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.53.27:171][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001579s)
+[2017.10.25-12.53.27:171][524]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.53.27:171][524]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2017.10.25-12.53.27:171][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002695s)
+[2017.10.25-12.53.27:193][524]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.53.27:199][524]LogInit: FAudioDevice initialized.
+[2017.10.25-12.53.27:276][524]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.53.27:278][524]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.53.27
+[2017.10.25-12.53.27:278][524]LogWorld: Bringing up level for play took: 0.000799
+[2017.10.25-12.53.27:303][524]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.10.25-12.53.27:304][524]LogBlueprintUserMessages: [ACT_Game_Setup_74] Hello
+[2017.10.25-12.53.27:304][524]LogBlueprintUserMessages: [ACT_Game_Setup_74] Hello
+[2017.10.25-12.53.27:304][524]LogBlueprintUserMessages: [ACT_Game_Setup_74] Hello
+[2017.10.25-12.53.27:304][524]LogBlueprintUserMessages: [ACT_Game_Setup_74] Hello
+[2017.10.25-12.53.27:304][524]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.019
+[2017.10.25-12.53.39:628][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.53.39:661][316]LogSavePackage: Save=30.34ms
+[2017.10.25-12.53.39:662][316]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup775244E44D02418AE39993B735CD1813.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.53.39:664][316]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.53.40:417][366]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.53.41:357][413]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.53.41:375][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.53.41:375][413]PIE: New page: PIE session: TestMap (26 Oct 2017 10:53:41 am)
+[2017.10.25-12.53.41:375][413]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.53.41:378][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002717s)
+[2017.10.25-12.53.41:379][413]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.53.41:379][413]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2017.10.25-12.53.41:379][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003759s)
+[2017.10.25-12.53.41:401][413]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.53.41:407][413]LogInit: FAudioDevice initialized.
+[2017.10.25-12.53.41:443][413]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.53.41:445][413]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.53.41
+[2017.10.25-12.53.41:445][413]LogWorld: Bringing up level for play took: 0.001277
+[2017.10.25-12.53.41:447][413]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.53.41:447][413]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.53.41:447][413]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.53.41:447][413]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.53.41:447][413]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.124
+[2017.10.25-12.53.59:308][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.53.59:347][522]LogSavePackage: Save=31.09ms
+[2017.10.25-12.53.59:347][522]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup8CC22CE842C0148817D93481C7A65428.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.53.59:351][522]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.54.00:287][585]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.54.09:007][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.54.09:052][114]LogSavePackage: Save=37.18ms
+[2017.10.25-12.54.09:052][114]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupE8EEBD374F1039CA6509AFB9F759C80C.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.54.09:054][114]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.54.10:329][198]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.54.11:106][231]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.54.11:123][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.54.11:123][231]PIE: New page: PIE session: TestMap (26 Oct 2017 10:54:11 am)
+[2017.10.25-12.54.11:123][231]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.54.11:125][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001378s)
+[2017.10.25-12.54.11:125][231]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.54.11:125][231]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.10.25-12.54.11:126][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002340s)
+[2017.10.25-12.54.11:147][231]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.54.11:152][231]LogInit: FAudioDevice initialized.
+[2017.10.25-12.54.11:186][231]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.54.11:188][231]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.54.11
+[2017.10.25-12.54.11:188][231]LogWorld: Bringing up level for play took: 0.000891
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.11:189][231]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.11:190][231]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.134
+[2017.10.25-12.54.19:945][817]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.54.19:957][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.54.19:957][817]PIE: New page: PIE session: TestMap (26 Oct 2017 10:54:19 am)
+[2017.10.25-12.54.19:957][817]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.54.19:959][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001632s)
+[2017.10.25-12.54.19:960][817]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.54.19:960][817]LogPlayLevel: PIE: World Init took: (0.001333s)
+[2017.10.25-12.54.19:961][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003531s)
+[2017.10.25-12.54.19:983][817]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.54.19:988][817]LogInit: FAudioDevice initialized.
+[2017.10.25-12.54.20:025][817]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.54.20:027][817]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.54.20
+[2017.10.25-12.54.20:027][817]LogWorld: Bringing up level for play took: 0.001483
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.20:029][817]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.20:029][817]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.706
+[2017.10.25-12.54.28:046][340]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.54.28:806][371]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.54.28:824][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.54.28:824][371]PIE: New page: PIE session: TestMap (26 Oct 2017 10:54:28 am)
+[2017.10.25-12.54.28:824][371]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.54.28:826][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
+[2017.10.25-12.54.28:827][371]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.54.28:827][371]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2017.10.25-12.54.28:827][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003032s)
+[2017.10.25-12.54.28:850][371]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.54.28:856][371]LogInit: FAudioDevice initialized.
+[2017.10.25-12.54.28:889][371]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.54.28:890][371]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.54.28
+[2017.10.25-12.54.28:891][371]LogWorld: Bringing up level for play took: 0.000930
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.28:892][371]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.28:892][371]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.431
+[2017.10.25-12.54.34:112][711]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.54.34:128][711]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.25-12.54.34:134][711]LogPlayLevel: [PlayLevel] Compiling ACT_Game_Setup before play...
+[2017.10.25-12.54.34:360][711]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2017.10.25-12.54.34:360][711]PIE: New page: PIE session: TestMap (26 Oct 2017 10:54:34 am)
+[2017.10.25-12.54.34:360][711]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.54.34:362][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001508s)
+[2017.10.25-12.54.34:363][711]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.54.34:363][711]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2017.10.25-12.54.34:363][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002768s)
+[2017.10.25-12.54.34:383][711]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.54.34:389][711]LogInit: FAudioDevice initialized.
+[2017.10.25-12.54.34:427][711]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.54.34:428][711]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.54.34
+[2017.10.25-12.54.34:428][711]LogWorld: Bringing up level for play took: 0.000827
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:429][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.54.34:430][711]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.54.34:430][711]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 1.106
+[2017.10.25-12.54.36:730][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.54.36:765][864]LogSavePackage: Save=31.81ms
+[2017.10.25-12.54.36:765][864]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup2084E9644839D61C4BCAD3B5AEE42598.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.54.36:767][864]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.55.11:433][183]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.55.11:451][183]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.25-12.55.11:457][183]LogPlayLevel: [PlayLevel] Compiling ACT_Game_Setup before play...
+[2017.10.25-12.55.11:677][183]LogPlayLevel: PlayLevel: Blueprint regeneration took 226 ms (1 blueprints)
+[2017.10.25-12.55.11:677][183]PIE: New page: PIE session: TestMap (26 Oct 2017 10:55:11 am)
+[2017.10.25-12.55.11:677][183]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.55.11:679][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001823s)
+[2017.10.25-12.55.11:680][183]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.55.11:680][183]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.10.25-12.55.11:680][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002928s)
+[2017.10.25-12.55.11:701][183]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.55.11:708][183]LogInit: FAudioDevice initialized.
+[2017.10.25-12.55.11:743][183]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.55.11:745][183]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.55.11
+[2017.10.25-12.55.11:745][183]LogWorld: Bringing up level for play took: 0.001095
+[2017.10.25-12.55.11:788][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.11:788][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.11:788][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.11:789][183]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-12.55.11:789][183]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.465
+[2017.10.25-12.55.14:764][383]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.55.14:783][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.55.14:783][383]PIE: New page: PIE session: TestMap (26 Oct 2017 10:55:14 am)
+[2017.10.25-12.55.14:783][383]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.55.14:786][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002232s)
+[2017.10.25-12.55.14:786][383]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.55.14:787][383]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2017.10.25-12.55.14:787][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003407s)
+[2017.10.25-12.55.14:811][383]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.55.14:817][383]LogInit: FAudioDevice initialized.
+[2017.10.25-12.55.14:854][383]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.55.14:855][383]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.55.14
+[2017.10.25-12.55.14:855][383]LogWorld: Bringing up level for play took: 0.001105
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.14:857][383]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-12.55.14:857][383]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.466
+[2017.10.25-12.55.19:446][662]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.55.19:458][662]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.25-12.55.19:465][662]LogPlayLevel: [PlayLevel] Compiling ACT_Game_Setup before play...
+[2017.10.25-12.55.19:690][662]LogPlayLevel: PlayLevel: Blueprint regeneration took 232 ms (1 blueprints)
+[2017.10.25-12.55.19:690][662]PIE: New page: PIE session: TestMap (26 Oct 2017 10:55:19 am)
+[2017.10.25-12.55.19:690][662]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.55.19:692][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001665s)
+[2017.10.25-12.55.19:693][662]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.55.19:693][662]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.10.25-12.55.19:693][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002618s)
+[2017.10.25-12.55.19:715][662]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.55.19:721][662]LogInit: FAudioDevice initialized.
+[2017.10.25-12.55.19:756][662]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.55.19:758][662]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.55.19
+[2017.10.25-12.55.19:758][662]LogWorld: Bringing up level for play took: 0.001070
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.55.19:759][662]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-12.55.19:759][662]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.436
+[2017.10.25-12.55.25:242][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.55.25:280][ 59]LogSavePackage: Save=35.13ms
+[2017.10.25-12.55.25:280][ 59]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupE45565DE43272B186978F19EB2EEAE5C.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.55.25:283][ 59]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.55.48:035][486]LogEditorTransaction: Undo Move Nodes
+[2017.10.25-12.56.03:845][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.03:879][441]LogSavePackage: Save=31.77ms
+[2017.10.25-12.56.03:879][441]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupEA867F124F79C42E3703CC95FAA4A07F.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.03:881][441]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.04:850][503]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.56.05:514][528]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.56.05:532][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.56.05:532][528]PIE: New page: PIE session: TestMap (26 Oct 2017 10:56:05 am)
+[2017.10.25-12.56.05:532][528]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.56.05:534][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001769s)
+[2017.10.25-12.56.05:535][528]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.56.05:535][528]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.10.25-12.56.05:535][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002881s)
+[2017.10.25-12.56.05:558][528]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.56.05:564][528]LogInit: FAudioDevice initialized.
+[2017.10.25-12.56.05:601][528]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.56.05:603][528]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.56.05
+[2017.10.25-12.56.05:603][528]LogWorld: Bringing up level for play took: 0.001163
+[2017.10.25-12.56.05:604][528]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.281
+[2017.10.25-12.56.25:630][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.25:666][816]LogSavePackage: Save=32.90ms
+[2017.10.25-12.56.25:666][816]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup6F5E87D447FC6140C43D12BBD30389AA.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.25:669][816]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.26:615][875]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.56.27:269][902]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.56.27:287][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.56.27:287][902]PIE: New page: PIE session: TestMap (26 Oct 2017 10:56:27 am)
+[2017.10.25-12.56.27:287][902]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.56.27:289][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001628s)
+[2017.10.25-12.56.27:290][902]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.56.27:290][902]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.10.25-12.56.27:290][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002722s)
+[2017.10.25-12.56.27:311][902]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.56.27:317][902]LogInit: FAudioDevice initialized.
+[2017.10.25-12.56.27:355][902]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.56.27:357][902]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.56.27
+[2017.10.25-12.56.27:357][902]LogWorld: Bringing up level for play took: 0.001123
+[2017.10.25-12.56.27:358][902]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.035
+[2017.10.25-12.56.31:269][185]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.25-12.56.37:191][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.37:226][568]LogSavePackage: Save=32.73ms
+[2017.10.25-12.56.37:226][568]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupB2C84EB6467E92920C61F8A36089804E.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.37:229][568]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.44:621][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.44:657][ 50]LogSavePackage: Save=33.79ms
+[2017.10.25-12.56.44:657][ 50]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup6BA4114A4BDF15FB0F1FE497314F7E9E.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.44:660][ 50]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.50:210][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.50:262][411]LogSavePackage: Save=32.69ms
+[2017.10.25-12.56.50:262][411]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup2A533961458912FAE91CD1AA8A75634F.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.50:265][411]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.50:758][443]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.56.51:346][465]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.56.51:365][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.56.51:365][465]PIE: New page: PIE session: TestMap (26 Oct 2017 10:56:51 am)
+[2017.10.25-12.56.51:365][465]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.56.51:367][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001686s)
+[2017.10.25-12.56.51:368][465]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.56.51:368][465]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.10.25-12.56.51:368][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002867s)
+[2017.10.25-12.56.51:391][465]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.56.51:397][465]LogInit: FAudioDevice initialized.
+[2017.10.25-12.56.51:431][465]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.56.51:433][465]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.56.51
+[2017.10.25-12.56.51:433][465]LogWorld: Bringing up level for play took: 0.001171
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-12.56.51:434][465]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-12.56.51:434][465]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.111
+[2017.10.25-12.56.58:568][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.56.58:605][918]LogSavePackage: Save=34.56ms
+[2017.10.25-12.56.58:605][918]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup9764BB0E4D88A4B9C3DF57B34A357EE9.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.56.58:608][918]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.56.59:525][980]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.57.00:429][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.57.00:447][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.57.00:447][ 22]PIE: New page: PIE session: TestMap (26 Oct 2017 10:57:00 am)
+[2017.10.25-12.57.00:447][ 22]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.57.00:449][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001912s)
+[2017.10.25-12.57.00:450][ 22]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.57.00:450][ 22]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.10.25-12.57.00:450][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002925s)
+[2017.10.25-12.57.00:472][ 22]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.57.00:478][ 22]LogInit: FAudioDevice initialized.
+[2017.10.25-12.57.00:512][ 22]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.57.00:513][ 22]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.57.00
+[2017.10.25-12.57.00:513][ 22]LogWorld: Bringing up level for play took: 0.001044
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.00:515][ 22]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.00:515][ 22]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.808
+[2017.10.25-12.57.03:791][249]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.57.03:804][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.57.03:805][249]PIE: New page: PIE session: TestMap (26 Oct 2017 10:57:03 am)
+[2017.10.25-12.57.03:805][249]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.57.03:806][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001543s)
+[2017.10.25-12.57.03:807][249]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.57.03:807][249]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.10.25-12.57.03:807][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002643s)
+[2017.10.25-12.57.03:832][249]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.57.03:837][249]LogInit: FAudioDevice initialized.
+[2017.10.25-12.57.03:875][249]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.57.03:877][249]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.57.03
+[2017.10.25-12.57.03:877][249]LogWorld: Bringing up level for play took: 0.001271
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.03:878][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.03:879][249]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.03:879][249]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.555
+[2017.10.25-12.57.06:411][416]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-12.57.06:424][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-12.57.06:424][416]PIE: New page: PIE session: TestMap (26 Oct 2017 10:57:06 am)
+[2017.10.25-12.57.06:424][416]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-12.57.06:426][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001558s)
+[2017.10.25-12.57.06:426][416]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-12.57.06:426][416]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.10.25-12.57.06:427][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002370s)
+[2017.10.25-12.57.06:450][416]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-12.57.06:456][416]LogInit: FAudioDevice initialized.
+[2017.10.25-12.57.06:491][416]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-12.57.06:493][416]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.25-23.57.06
+[2017.10.25-12.57.06:493][416]LogWorld: Bringing up level for play took: 0.001189
+[2017.10.25-12.57.06:494][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.06:494][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-12.57.06:495][416]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-12.57.06:495][416]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.828
+[2017.10.25-12.58.10:304][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.58.10:341][989]LogSavePackage: Save=35.27ms
+[2017.10.25-12.58.10:341][989]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup7B92E80F40F3BD6B2A80A38B3FA1336E.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.58.10:343][989]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.58.35:420][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.58.35:459][479]LogSavePackage: Save=35.28ms
+[2017.10.25-12.58.35:459][479]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupBC5D6B274B5A632A9E2B0EB10276D517.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.58.35:461][479]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-12.59.21:445][526]BlueprintLog: New page: Compile ACT_Game_Setup
+[2017.10.25-12.59.22:230][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-12.59.22:263][569]LogSavePackage: Save=30.97ms
+[2017.10.25-12.59.22:263][569]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupBD23EDDD45F39C30D48639B2FA832626.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-12.59.22:264][569]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-13.00.53:193][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-13.00.53:235][537]LogSavePackage: Save=38.92ms
+[2017.10.25-13.00.53:235][537]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupA308CA994E3DD82A3C6510827E9CFF1F.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-13.00.53:239][537]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-13.01.31:451][918]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.01.31:477][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.01.31:477][918]PIE: New page: PIE session: TestMap (26 Oct 2017 11:01:31 am)
+[2017.10.25-13.01.31:477][918]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.01.31:479][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2017.10.25-13.01.31:480][918]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.01.31:480][918]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2017.10.25-13.01.31:480][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.003237s)
+[2017.10.25-13.01.31:505][918]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.01.31:511][918]LogInit: FAudioDevice initialized.
+[2017.10.25-13.01.31:554][918]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.01.31:556][918]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.01.31
+[2017.10.25-13.01.31:556][918]LogWorld: Bringing up level for play took: 0.001765
+[2017.10.25-13.01.31:558][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.31:558][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.31:558][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.31:558][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.31:559][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.31:559][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.31:559][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.31:559][918]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.31:559][918]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.235
+[2017.10.25-13.01.38:548][327]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.01.38:561][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.01.38:561][327]PIE: New page: PIE session: TestMap (26 Oct 2017 11:01:38 am)
+[2017.10.25-13.01.38:562][327]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.01.38:564][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002689s)
+[2017.10.25-13.01.38:565][327]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.01.38:566][327]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2017.10.25-13.01.38:566][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.004236s)
+[2017.10.25-13.01.38:593][327]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.01.38:601][327]LogInit: FAudioDevice initialized.
+[2017.10.25-13.01.38:640][327]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.01.38:641][327]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.01.38
+[2017.10.25-13.01.38:641][327]LogWorld: Bringing up level for play took: 0.000966
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.38:643][327]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.38:643][327]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap -0.68
+[2017.10.25-13.01.44:164][646]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.01.44:176][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.01.44:176][646]PIE: New page: PIE session: TestMap (26 Oct 2017 11:01:44 am)
+[2017.10.25-13.01.44:176][646]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.01.44:178][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2017.10.25-13.01.44:178][646]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.01.44:178][646]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.10.25-13.01.44:178][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002127s)
+[2017.10.25-13.01.44:210][646]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.01.44:216][646]LogInit: FAudioDevice initialized.
+[2017.10.25-13.01.44:259][646]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.01.44:261][646]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.01.44
+[2017.10.25-13.01.44:262][646]LogWorld: Bringing up level for play took: 0.001625
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.01.44:263][646]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.01.44:264][646]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.94
+[2017.10.25-13.01.54:663][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-13.01.54:705][216]LogSavePackage: Save=37.57ms
+[2017.10.25-13.01.54:705][216]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_SetupF5BC31614EA5CBFC54A5568FF162F221.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-13.01.54:707][216]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-13.01.55:744][272]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.01.55:762][272]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.25-13.01.55:772][272]LogPlayLevel: [PlayLevel] Compiling ACT_Game_Setup before play...
+[2017.10.25-13.01.56:019][272]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (1 blueprints)
+[2017.10.25-13.01.56:019][272]PIE: New page: PIE session: TestMap (26 Oct 2017 11:01:56 am)
+[2017.10.25-13.01.56:019][272]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.01.56:021][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001773s)
+[2017.10.25-13.01.56:022][272]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.01.56:022][272]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.10.25-13.01.56:022][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002801s)
+[2017.10.25-13.01.56:043][272]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.01.56:052][272]LogInit: FAudioDevice initialized.
+[2017.10.25-13.01.56:093][272]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.01.56:095][272]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.01.56
+[2017.10.25-13.01.56:095][272]LogWorld: Bringing up level for play took: 0.001045
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-13.01.56:096][272]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-13.01.56:096][272]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.773
+[2017.10.25-13.01.59:375][468]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.01.59:399][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.01.59:399][468]PIE: New page: PIE session: TestMap (26 Oct 2017 11:01:59 am)
+[2017.10.25-13.01.59:399][468]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.01.59:400][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001338s)
+[2017.10.25-13.01.59:401][468]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.01.59:401][468]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2017.10.25-13.01.59:401][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002230s)
+[2017.10.25-13.01.59:428][468]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.01.59:433][468]LogInit: FAudioDevice initialized.
+[2017.10.25-13.01.59:469][468]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.01.59:470][468]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.01.59
+[2017.10.25-13.01.59:471][468]LogWorld: Bringing up level for play took: 0.000977
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-13.01.59:472][468]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-13.01.59:472][468]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.149
+[2017.10.25-13.02.01:540][579]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.02.01:554][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.25-13.02.01:554][579]PIE: New page: PIE session: TestMap (26 Oct 2017 11:02:01 am)
+[2017.10.25-13.02.01:554][579]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.02.01:557][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003370s)
+[2017.10.25-13.02.01:558][579]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.02.01:558][579]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.10.25-13.02.01:559][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.004639s)
+[2017.10.25-13.02.01:581][579]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.02.01:589][579]LogInit: FAudioDevice initialized.
+[2017.10.25-13.02.01:625][579]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.02.01:626][579]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.02.01
+[2017.10.25-13.02.01:626][579]LogWorld: Bringing up level for play took: 0.001091
+[2017.10.25-13.02.01:627][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 0
+[2017.10.25-13.02.01:627][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 1
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 2
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 3
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 4
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 5
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 6
+[2017.10.25-13.02.01:628][579]LogBlueprintUserMessages: [ACT_Game_Setup_74] 7
+[2017.10.25-13.02.01:628][579]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.305
+[2017.10.25-13.02.07:851][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ACT_Game_Setup" FILE="../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset" SILENT=true
+[2017.10.25-13.02.07:890][902]LogSavePackage: Save=35.38ms
+[2017.10.25-13.02.07:890][902]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/ACT_Game_Setup22FFDFAC4D67DD071BC401A23A80D20B.tmp' to '../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset'
+[2017.10.25-13.02.07:893][902]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Gameplay/ACT_Game_Setup.uasset
+[2017.10.25-13.02.09:178][972]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.25-13.02.09:191][972]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.25-13.02.09:197][972]LogPlayLevel: [PlayLevel] Compiling ACT_Game_Setup before play...
+[2017.10.25-13.02.09:445][972]LogPlayLevel: PlayLevel: Blueprint regeneration took 253 ms (1 blueprints)
+[2017.10.25-13.02.09:445][972]PIE: New page: PIE session: TestMap (26 Oct 2017 11:02:09 am)
+[2017.10.25-13.02.09:445][972]LogPlayLevel: Creating play world package: /Game/Levels/Test/UEDPIE_0_TestMap
+[2017.10.25-13.02.09:447][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001711s)
+[2017.10.25-13.02.09:448][972]LogAIModule: Creating AISystem for world TestMap
+[2017.10.25-13.02.09:448][972]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2017.10.25-13.02.09:448][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Test/TestMap.TestMap to /Game/Levels/Test/UEDPIE_0_TestMap.TestMap (0.002953s)
+[2017.10.25-13.02.09:469][972]LogInit: XAudio2 using 'DELL S2440L-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.25-13.02.09:476][972]LogInit: FAudioDevice initialized.
+[2017.10.25-13.02.09:509][972]LogLoad: Game class is 'GM_Main_Game_C'
+[2017.10.25-13.02.09:511][972]LogWorld: Bringing World /Game/Levels/Test/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2017.10.26-00.02.09
+[2017.10.25-13.02.09:511][972]LogWorld: Bringing up level for play took: 0.000890
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Green
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Yellow
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Blue
+[2017.10.25-13.02.09:512][972]LogBlueprintUserMessages: [ACT_Game_Setup_74] Red
+[2017.10.25-13.02.09:512][972]PIE: Play in editor start time for /Game/Levels/Test/UEDPIE_0_TestMap 0.189
+[2017.10.25-13.03.49:732][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../Projects/InjectEm/Saved/Autosaves/Game/Levels/Test/TestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.25-13.03.49:775][304]LogSavePackage: Save=37.71ms
+[2017.10.25-13.03.49:775][304]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap_Auto1D0FF25EC4AFEDA71AD0E8586BDFCC4EE.tmp' to '../../../Projects/InjectEm/Saved/Autosaves/Game/Levels/Test/TestMap_Auto1.umap'
+[2017.10.25-13.03.49:777][304]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Saved/Autosaves/Game/Levels/Test/TestMap_Auto1.umap
+[2017.10.25-13.03.49:778][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Test/TestMap' took 0.069
+[2017.10.25-13.03.49:778][304]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.069
+[2017.10.25-13.03.53:267][444]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.03.53:765][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-13.03.53:802][470]LogSavePackage: Save=18.35ms
+[2017.10.25-13.03.53:802][470]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMapE3571D8B47A896EB717EDEB1B5603556.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap'
+[2017.10.25-13.03.53:805][470]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap
+[2017.10.25-13.03.53:821][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
+[2017.10.25-13.03.53:832][470]LogSavePackage: Save=8.31ms
+[2017.10.25-13.03.53:832][470]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap_BuiltData3EEE799943A9A8442F40748A5658B3C2.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
+[2017.10.25-13.03.53:833][470]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
+[2017.10.25-13.03.57:762][702]LogEditorViewport: Clicking on Actor (LMB): ACT_Game_Setup_C (ACT_Game_Setup)
+[2017.10.25-13.04.04:821][120]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.04.05:911][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.04.06:729][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-13.04.06:770][230]LogSavePackage: Save=19.73ms
+[2017.10.25-13.04.06:770][230]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap63DC6C1649BB63B3AB783BAF26EF792F.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap'
+[2017.10.25-13.04.06:772][230]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap
+[2017.10.25-13.04.06:788][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
+[2017.10.25-13.04.06:796][230]LogSavePackage: Save=5.43ms
+[2017.10.25-13.04.06:796][230]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap_BuiltDataE12A8E04465C6AC52729D1A3103A9848.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
+[2017.10.25-13.04.06:797][230]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
+[2017.10.25-13.04.07:725][285]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.04.17:896][897]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.04.27:852][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-13.04.27:889][483]LogSavePackage: Save=16.97ms
+[2017.10.25-13.04.27:889][483]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap72D87E8145A167643A84C3AACBC169C4.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap'
+[2017.10.25-13.04.27:890][483]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap
+[2017.10.25-13.04.27:906][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
+[2017.10.25-13.04.27:913][483]LogSavePackage: Save=5.39ms
+[2017.10.25-13.04.27:913][483]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap_BuiltData16D3C8884EB484DBC1CDCCA9FE166D81.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
+[2017.10.25-13.04.27:914][483]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
+[2017.10.25-13.04.31:003][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.25-13.04.31:269][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.25-13.04.31:305][660]LogSavePackage: Save=18.33ms
+[2017.10.25-13.04.31:305][660]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap6A8DB8604CB590D03016C3A74C1769CB.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap'
+[2017.10.25-13.04.31:306][660]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap.umap
+[2017.10.25-13.04.31:323][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Test/TestMap_BuiltData" FILE="../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset" SILENT=true
+[2017.10.25-13.04.31:331][660]LogSavePackage: Save=6.48ms
+[2017.10.25-13.04.31:331][660]LogSavePackage: Moving '../../../Projects/InjectEm/Saved/TestMap_BuiltData4E14903D4D7FE83FB47AD4B0FF8B7BBD.tmp' to '../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset'
+[2017.10.25-13.04.31:333][660]LogSavePackage: Display: Finished SavePackage ../../../Projects/InjectEm/Content/Levels/Test/TestMap_BuiltData.uasset
